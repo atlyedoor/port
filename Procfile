@@ -1,1 +1,1 @@
-web: gunicorn atlyedoor.wsgi
+web: gunicorn fr.wsgi --log-file -
