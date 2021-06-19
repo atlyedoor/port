@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run app.py
+gunicorn -b :5000 --access-logfile - --error-logfile - build:app
